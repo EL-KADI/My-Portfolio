@@ -11,6 +11,7 @@ import { faSass } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { SiTypescript } from "react-icons/si";
 import { faNpm } from "@fortawesome/free-brands-svg-icons";
+import { SiMui, SiJquery } from "react-icons/si";
 
 export default function Skills() {
   const [isVisible, setIsVisible] = useState(false);
@@ -49,7 +50,7 @@ export default function Skills() {
 
       <div
         ref={divRef}
-        className={`row group transition-all ease-in-out items-center ${
+        className={`row group transition-all ease-in-out items-center -mt-10 ${
           isVisible
             ? "translate-x-0 opacity-100 duration-[2000ms]"
             : "-translate-x-96 opacity-0 duration-[100ms]"
@@ -62,10 +63,10 @@ export default function Skills() {
             alt="Design"
           />
         </div>
-        <div className="col-4 col-md-2 mt-16">
+        <div className="col-4 col-md-2 mt-6">
           <div className="text-center">
             <FontAwesomeIcon
-              className="dark:text-white text-black text-5xl md:scroll-m-64 xl:scroll-m-[17.4rem] sm:scroll-m-[41rem] scroll-m-[38rem]"
+              className="dark:text-white text-black text-5xl md:scroll-m-56 xl:scroll-m-[14.4rem] sm:scroll-m-[40rem] scroll-m-[36rem]"
               id="skills-section-h4"
               icon={faHtml5}
             />
@@ -79,8 +80,12 @@ export default function Skills() {
 
             <h4 className="dark:text-white text-black mb-10 ">Next.js</h4>
             <SiTypescript className=" text-4xl   mx-auto dark:text-white text-black" />
+            <h4 className="dark:text-white mb-10 text-black mt-1">
+              TypeScript
+            </h4>
 
-            <h4 className="dark:text-white text-black mt-1">TypeScript</h4>
+            <SiJquery className=" text-4xl   mx-auto dark:text-white text-black" />
+            <h4 className="dark:text-white text-black mt-1">Jquery</h4>
           </div>
         </div>
         <div className="col-4 col-md-2 mt-16">
@@ -89,8 +94,8 @@ export default function Skills() {
               className="dark:text-white text-black text-5xl"
               icon={faCss3Alt}
             />
-            <h4 className="dark:text-white text-black">CSS</h4>
-            <SiTailwindcss className="dark:text-white text-black text-5xl mt-10 mx-auto" />
+            <h4 className="dark:text-white text-black mb-10">CSS</h4>
+            <SiTailwindcss className="dark:text-white text-black text-5xl  mx-auto" />
             <h4 className="dark:text-white text-black mb-10">Tailwind</h4>
             <FontAwesomeIcon
               className="dark:text-white text-black text-5xl"
@@ -98,13 +103,16 @@ export default function Skills() {
             />
             <h4 className="dark:text-white text-black mb-10">Sass</h4>
             <FontAwesomeIcon
-              className="dark:text-white text-black text-5xl"
+              className="dark:text-white  text-black text-5xl"
               icon={faNpm}
             />
-            <h4 className="dark:text-white text-black -mt-1">Npm</h4>
+            <h4 className="dark:text-white text-black mb-10 ">Npm</h4>
+            <SiMui className=" text-4xl   mx-auto dark:text-white text-black" />
+
+            <h4 className="dark:text-white text-black mb-10 ">Mui</h4>
           </div>
         </div>
-        <div className="col-4 col-md-2 mt-16">
+        <div className="col-4 col-md-2 -mt-20">
           <div className="text-center">
             <FontAwesomeIcon
               className="dark:text-white text-black text-5xl"
