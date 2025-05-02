@@ -86,7 +86,7 @@ export default function Projects() {
       description:
         "This project is a fully responsive note-taking app built with React and Tailwind CSS. It features user authentication with login and registration, and allows users to create, edit, and delete notes. Notes are stored using both local storage and external APIs to ensure data persistence and accessibility. The app offers a clean, intuitive design and smooth performance, making it ideal for organizing tasks and ideas efficiently.",
       image: NoteApp,
-      url: "https://note-app-tau-bay.vercel.app/",
+      url: "https://note-app-el-kadis-projects.vercel.app/",
     },
     {
       title: "FoodDex",

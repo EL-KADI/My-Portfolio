@@ -12,7 +12,7 @@ export default defineConfig({
       deleteOriginFile: false,
     }),
   ],
-  
+
   build: {
     minify: "esbuild",
     terserOptions: {
@@ -35,5 +35,5 @@ export default defineConfig({
       },
     },
   },
-  base:"/My-Por
+  base: "/My-Portfolio",
 });
