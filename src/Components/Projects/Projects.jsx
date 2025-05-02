@@ -11,6 +11,8 @@ import RandomQuoteGenerator from "../../Images/Random Quote Generator.png";
 import FreshCart from "../../Images/FreshCart.png";
 import FoodDex from "../../Images/FoodDex.png";
 import GamePlex from "../../Images/GamePlex.png";
+import MovieNest from "../../Images/MovieNest.png";
+import NoteApp from "../../Images/NoteApp.png";
 import Yonna from "../../Images/Yonna.png";
 
 export default function Projects() {
@@ -66,11 +68,11 @@ export default function Projects() {
       scrollClass: "md:scroll-m-[12rem] scroll-m-[41rem]",
     },
     {
-      title: "Material Kit 2",
+      title: "MovieNest",
       description:
-        "This project is a web application featuring a Login Page and Home Page. It dynamically fetches content from APIs, showcasing popular games, news updates, inspirational quotes, and jokes. The app delivers a seamless user experience with a clean design.",
-      image: MaterialKit2,
-      url: "https://el-kadi.github.io/Material-Kit-2/#/register",
+        "This project is a fully responsive movie rating website built with React and Tailwind CSS. It showcases top-rated and lowest-rated films using real-time data from APIs. Users can explore trending movies, read brief reviews, and view ratings visually. The interface is clean and intuitive, ensuring fast performance and seamless browsing. It offers a fun and informative way to discover and compare films.",
+      image: MovieNest,
+      url: "https://movie-nest-ten.vercel.app/",
     },
     {
       title: "GamePlex",
@@ -80,6 +82,13 @@ export default function Projects() {
       url: "https://gameplex-theta.vercel.app/",
     },
     {
+      title: "NoteApp",
+      description:
+        "This project is a fully responsive note-taking app built with React and Tailwind CSS. It features user authentication with login and registration, and allows users to create, edit, and delete notes. Notes are stored using both local storage and external APIs to ensure data persistence and accessibility. The app offers a clean, intuitive design and smooth performance, making it ideal for organizing tasks and ideas efficiently.",
+      image: NoteApp,
+      url: "https://note-app-tau-bay.vercel.app/",
+    },
+    {
       title: "FoodDex",
       description:
         "This project is a web page showcasing various dishes with their recipes and calorie counts. Built using SASS, it offers a visually appealing interface. Users can explore meals, learn preparation methods, and track nutritional value effortlessly.",
@@ -87,18 +96,11 @@ export default function Projects() {
       url: "https://fooddex.vercel.app/",
     },
     {
-      title: "Daniels",
+      title: "Material Kit 2",
       description:
-        "This project is a single-page website providing a comprehensive overview. It includes sections for personal details, services, previous work, client feedback, team information, and communication, all structured to enhance user engagement.",
-      image: Daniels,
-      url: "https://daniels-tau-fawn.vercel.app/",
-    },
-    {
-      title: "DevFolio",
-      description:
-        "This web page serves as a training project, featuring a Portfolio Section, Blog Section, Get in Touch Section, and About Section. The design is clean and user-friendly, ensuring a smooth browsing experience for showcasing work and sharing updates.",
-      image: DevFolio,
-      url: "https://devfolio-five-xi.vercel.app/",
+        "This project is a web application featuring a Login Page and Home Page. It dynamically fetches content from APIs, showcasing popular games, news updates, inspirational quotes, and jokes. The app delivers a seamless user experience with a clean design.",
+      image: MaterialKit2,
+      url: "https://el-kadi.github.io/Material-Kit-2/#/register",
     },
     {
       title: "Weather",
@@ -113,6 +115,20 @@ export default function Projects() {
         "This project is a web application offering a variety of games sourced from a dedicated API. Users can explore and enjoy different games in an easy-to-navigate interface, providing a fun and engaging experience for game enthusiasts.",
       image: Games,
       url: "https://gameson-theta.vercel.app/",
+    },
+    {
+      title: "Daniels",
+      description:
+        "This project is a single-page website providing a comprehensive overview. It includes sections for personal details, services, previous work, client feedback, team information, and communication, all structured to enhance user engagement.",
+      image: Daniels,
+      url: "https://daniels-tau-fawn.vercel.app/",
+    },
+    {
+      title: "DevFolio",
+      description:
+        "This web page serves as a training project, featuring a Portfolio Section, Blog Section, Get in Touch Section, and About Section. The design is clean and user-friendly, ensuring a smooth browsing experience for showcasing work and sharing updates.",
+      image: DevFolio,
+      url: "https://devfolio-five-xi.vercel.app/",
     },
     {
       title: "Start Framework",
