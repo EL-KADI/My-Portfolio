@@ -14,6 +14,7 @@ import GamePlex from "../../Images/GamePlex.png";
 import MovieNest from "../../Images/MovieNest.png";
 import NoteApp from "../../Images/NoteApp.png";
 import Yonna from "../../Images/Yonna.png";
+import nasaehgedety from "../../Images/nasaehgedety.png";
 
 export default function Projects() {
   const [isVisible, setIsVisible] = useState(false);
@@ -66,6 +67,13 @@ export default function Projects() {
       url: "https://fresh-cart-virid-beta.vercel.app/",
       id: "project-section-row",
       scrollClass: "md:scroll-m-[12rem] scroll-m-[41rem]",
+    },
+    {
+      title: "Nasaeh Gedety",
+      description:
+        "Nasaeh Gedety is an Arab heritage platform built with Next.js and Tailwind CSS. It dynamically offers traditional tips and folk recipes across 49 categories, like cooking, sewing, and childcare. Users can submit their own tips, blending grandmothers’ wisdom with a seamless, interactive design, celebrating Egyptian, Gulf, and Levantine traditions.",
+      image: nasaehgedety,
+      url: "https://nasaehgedety.vercel.app/",
     },
     {
       title: "MovieNest",
