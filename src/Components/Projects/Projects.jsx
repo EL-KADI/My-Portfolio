@@ -15,6 +15,7 @@ import MovieNest from "../../Images/MovieNest.png";
 import NoteApp from "../../Images/NoteApp.png";
 import Yonna from "../../Images/Yonna.png";
 import nasaehgedety from "../../Images/nasaehgedety.png";
+import abdullahclinicsystem from "../../Images/Abdullah Clinic System.png";
 
 export default function Projects() {
   const [isVisible, setIsVisible] = useState(false);
@@ -74,6 +75,13 @@ export default function Projects() {
         "Nasaeh Gedety is an Arab heritage platform built with Next.js and Tailwind CSS. It dynamically offers traditional tips and folk recipes across 49 categories, like cooking, sewing, and childcare. Users can submit their own tips, blending grandmothers’ wisdom with a seamless, interactive design, celebrating Egyptian, Gulf, and Levantine traditions.",
       image: nasaehgedety,
       url: "https://nasaehgedety.vercel.app/",
+    },
+    {
+      title: "DR. Abdullah Clinic System",
+      description:
+        "Dr. Abdullah's Clinic is a patient management dashboard built with React and Tailwind CSS. It offers secure local storage-based authentication without APIs, providing login, registration, and patient management. Users can add treatment plans, appointments, and surgical cases. The dashboard displays patient details, medical history, and upcoming appointments, ensuring efficient clinic management.",
+      image: abdullahclinicsystem,
+      url: "https://abdullah-clinic-system.vercel.app/#/",
     },
     {
       title: "MovieNest",
