@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+// باقي الـ imports زي ما هي
 import MaterialKit2 from "../../Images/Material Kit 2.png";
 import Weather from "../../Images/Weather.png";
 import DevFolio from "../../Images/DevFolio.png";
@@ -16,6 +17,7 @@ import NoteApp from "../../Images/NoteApp.png";
 import Yonna from "../../Images/Yonna.png";
 import nasaehgedety from "../../Images/nasaehgedety.png";
 import abdullahclinicsystem from "../../Images/Abdullah Clinic System.png";
+import auddtuneimage from "../../Images/auddtuneimage.png";
 
 export default function Projects() {
   const [isVisible, setIsVisible] = useState(false);
@@ -53,6 +55,7 @@ export default function Projects() {
   }, []);
 
   const projects = [
+    // باقي المشاريع زي ما هي
     {
       title: "Yonna (Social App)",
       description:
@@ -83,6 +86,14 @@ export default function Projects() {
       image: abdullahclinicsystem,
       url: "https://abdullah-clinic-system.vercel.app/#/",
     },
+    {
+      title: "AuddTune",
+      description:
+        "AuddTune is a song recognition platform built with React and Tailwind CSS. It allows users to identify songs by recording audio or uploading an audio file. The platform utilizes the <a href='https://audd.io' target='_blank' rel='noopener noreferrer'>audd.io</a> API for accurate song analysis. It provides an easy-to-use interface to display song information such as the artist's name, song title, and album.",
+      image: auddtuneimage,
+      url: "https://auddtune.vercel.app/",
+    },
+    // باقي المشاريع زي ما هي
     {
       title: "MovieNest",
       description:
@@ -217,7 +228,14 @@ export default function Projects() {
                     {project.title}
                   </h5>
                   <p className="mb-4 flex-grow text-xs text-gray-700 dark:text-gray-400">
-                    {project.description}
+                    {project.title === "AuddTune" ? (
+                   <span
+                   dangerouslySetInnerHTML={{ __html: project.description }}
+                   className="auddtune-description"
+                 />
+                    ) : (
+                      project.description
+                    )}
                   </p>
                   <a
                     href={project.url}

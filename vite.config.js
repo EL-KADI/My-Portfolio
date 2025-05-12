@@ -35,5 +35,5 @@ export default defineConfig({
       },
     },
   },
-  base: "/My-Portfolio",
+  // base: "/My-Portfolio",
 });
