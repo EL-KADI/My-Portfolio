@@ -75,7 +75,7 @@ export default function Projects() {
     {
       title: "Nasaeh Gedety",
       description:
-        "Nasaeh Gedety is an Arab heritage platform built with Next.js and Tailwind CSS. It dynamically offers traditional tips and folk recipes across 49 categories, like cooking, sewing, and childcare. Users can submit their own tips, blending grandmothers’ wisdom with a seamless, interactive design, celebrating Egyptian, Gulf, and Levantine traditions.",
+        "Nasaeh Gedety is an Arab heritage platform built with Next.js and Tailwind CSS. It dynamically offers traditional tips and folk recipes across 49 categories, like cooking, sewing, and childcare. Users can submit their own tips, blending grandmothers’ wisdom with a seamless, interactive design, celebrating Egyptian, Gulf, and Levantine traditions. The platform also features an intelligent chatbot that provides instant answers to users' questions, guiding them through categories, offering personalized advice, and making their experience more engaging and interactive.",
       image: nasaehgedety,
       url: "https://nasaehgedety.vercel.app/",
     },
@@ -93,7 +93,7 @@ export default function Projects() {
       image: auddtuneimage,
       url: "https://auddtune.vercel.app/",
     },
-    // باقي المشاريع زي ما هي
+    
     {
       title: "MovieNest",
       description:
