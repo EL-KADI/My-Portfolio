@@ -1,5 +1,4 @@
 import { useState, useEffect, useRef } from "react";
-// باقي الـ imports زي ما هي
 import MaterialKit2 from "../../Images/Material Kit 2.png";
 import Weather from "../../Images/Weather.png";
 import DevFolio from "../../Images/DevFolio.png";
@@ -18,6 +17,7 @@ import Yonna from "../../Images/Yonna.png";
 import nasaehgedety from "../../Images/nasaehgedety.png";
 import abdullahclinicsystem from "../../Images/Abdullah Clinic System.png";
 import auddtuneimage from "../../Images/auddtuneimage.png";
+import DigitalCardCreator from "../../Images/Digital Card Creator.png";
 
 export default function Projects() {
   const [isVisible, setIsVisible] = useState(false);
@@ -78,6 +78,13 @@ export default function Projects() {
         "Nasaeh Gedety is an Arab heritage platform built with Next.js and Tailwind CSS. It dynamically offers traditional tips and folk recipes across 49 categories, like cooking, sewing, and childcare. Users can submit their own tips, blending grandmothers’ wisdom with a seamless, interactive design, celebrating Egyptian, Gulf, and Levantine traditions. The platform also features an intelligent chatbot that provides instant answers to users' questions, guiding them through categories, offering personalized advice, and making their experience more engaging and interactive.",
       image: nasaehgedety,
       url: "https://nasaehgedety.vercel.app/",
+    },
+    {
+      title: "Digital Card Creator",
+      description:
+        "Digital Card Creator is a flexible platform built with Next.js and Tailwind CSS, allowing users to create custom digital cards such as greeting cards, invitations, and business cards. Users can start designing from scratch, adding text, images, and freely customizing colors and fonts. The platform provides instant preview of the designs and supports downloading the final cards in PNG or PDF format using jsPDF. It leverages Fabric.js for powerful and dynamic graphic editing, ensuring a smooth and flexible design experience suitable for both personal and professional use.",
+      image: DigitalCardCreator,
+      url: "https://digital-card-creator-nine.vercel.app",
     },
     {
       title: "DR. Abdullah Clinic System",
