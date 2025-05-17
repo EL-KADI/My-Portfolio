@@ -18,6 +18,7 @@ import nasaehgedety from "../../Images/nasaehgedety.png";
 import abdullahclinicsystem from "../../Images/Abdullah Clinic System.png";
 import auddtuneimage from "../../Images/auddtuneimage.png";
 import DigitalCardCreator from "../../Images/Digital Card Creator.png";
+import VideoQuest from "../../Images/VideoQuest.png";
 
 export default function Projects() {
   const [isVisible, setIsVisible] = useState(false);
@@ -55,7 +56,6 @@ export default function Projects() {
   }, []);
 
   const projects = [
-    // باقي المشاريع زي ما هي
     {
       title: "Yonna (Social App)",
       description:
@@ -87,11 +87,11 @@ export default function Projects() {
       url: "https://digital-card-creator-nine.vercel.app",
     },
     {
-      title: "DR. Abdullah Clinic System",
+      title: "VideoQuest",
       description:
-        "Dr. Abdullah's Clinic is a patient management dashboard built with React and Tailwind CSS. It offers secure local storage-based authentication without APIs, providing login, registration, and patient management. Users can add treatment plans, appointments, and surgical cases. The dashboard displays patient details, medical history, and upcoming appointments, ensuring efficient clinic management.",
-      image: abdullahclinicsystem,
-      url: "https://abdullah-clinic-system.vercel.app/#/",
+        "VideoQuest is an interactive front-end application built with Next.js and Tailwind CSS, allowing users to explore, search, and follow educational and entertainment videos from open sources. The application features a modern user interface with dark mode support, an advanced dashboard displaying interaction statistics through dynamic charts, a favorites list for saving videos, an option to download videos for offline viewing, and direct video playback within the app. VideoQuest ensures a smooth and interactive user experience, with easy customization and feature development.",
+      image: VideoQuest,
+      url: "https://video-quest.vercel.app/",
     },
     {
       title: "AuddTune",
@@ -100,7 +100,13 @@ export default function Projects() {
       image: auddtuneimage,
       url: "https://auddtune.vercel.app/",
     },
-    
+    {
+      title: "DR. Abdullah Clinic System",
+      description:
+        "Dr. Abdullah's Clinic is a patient management dashboard built with React and Tailwind CSS. It offers secure local storage-based authentication without APIs, providing login, registration, and patient management. Users can add treatment plans, appointments, and surgical cases. The dashboard displays patient details, medical history, and upcoming appointments, ensuring efficient clinic management.",
+      image: abdullahclinicsystem,
+      url: "https://abdullah-clinic-system.vercel.app/#/",
+    },
     {
       title: "MovieNest",
       description:
