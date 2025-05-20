@@ -25,18 +25,35 @@ html {
   background-color: #999;
 }
 .auddtune-description a {
-  color: #ff0000; 
+  color: #ff0000;
   text-decoration: underline;
   transition: all 0.7s;
 }
 .auddtune-description a:hover {
-  color: #092e09; 
+  color: #092e09;
 }
-
 
 .dark .auddtune-description a {
-  color: #ff9999; 
+  color: #ff9999;
 }
 .dark .auddtune-description a:hover {
-  color: #83bb83; 
+  color: #83bb83;
+}
+.dark .btn-hover-style:hover {
+  background-color: rgba(0, 0, 0, 0.527);
+  color: white;
+}
+.btn-hover-style:hover {
+  background-color: rgb(192, 188, 188);
+  color: rgb(62, 14, 14);
+}
+.btn-hover-style {
+  transition: all 0.5s;
+  background-color: rgb(224, 120, 108);
+  color: rgb(0, 0, 0);
+}
+.dark .btn-hover-style {
+  transition: all 0.5s;
+  background-color: #0d121d;
+  color: #fed29b;
 }

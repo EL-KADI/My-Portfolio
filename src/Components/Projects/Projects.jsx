@@ -19,6 +19,7 @@ import abdullahclinicsystem from "../../Images/Abdullah Clinic System.png";
 import auddtuneimage from "../../Images/auddtuneimage.png";
 import DigitalCardCreator from "../../Images/Digital Card Creator.png";
 import VideoQuest from "../../Images/VideoQuest.png";
+import PodcastFinder from "../../Images/Podcast Finder.png";
 
 export default function Projects() {
   const [isVisible, setIsVisible] = useState(false);
@@ -62,6 +63,7 @@ export default function Projects() {
         "This project is a fully responsive social media platform built with Next.js and MUI. It features user authentication, a dynamic Home Feed, and interactive user profiles. Content is fetched in real-time from APIs, allowing users to post updates, like, and comment. The platform offers a clean design and smooth navigation, providing a modern and engaging user experience.",
       image: Yonna,
       url: "https://yonna.vercel.app/signin",
+      code: "https://github.com/EL-KADI/Yonna",
     },
     {
       title: "FreshCart (E-Commerce App)",
@@ -69,6 +71,7 @@ export default function Projects() {
         "This project is a fully integrated e-commerce website with a Login Page and Home Page. It dynamically fetches content from APIs, offering a wide range of products, deals, and discounts. Users can browse items seamlessly, enjoying a clean design and interactive interface.",
       image: FreshCart,
       url: "https://fresh-cart-virid-beta.vercel.app/",
+      code: "https://github.com/EL-KADI/FreshCart-E-commerce-App",
       id: "project-section-row",
       scrollClass: "md:scroll-m-[12rem] scroll-m-[41rem]",
     },
@@ -78,6 +81,7 @@ export default function Projects() {
         "Nasaeh Gedety is an Arab heritage platform built with Next.js and Tailwind CSS. It dynamically offers traditional tips and folk recipes across 49 categories, like cooking, sewing, and childcare. Users can submit their own tips, blending grandmothers’ wisdom with a seamless, interactive design, celebrating Egyptian, Gulf, and Levantine traditions. The platform also features an intelligent chatbot that provides instant answers to users' questions, guiding them through categories, offering personalized advice, and making their experience more engaging and interactive.",
       image: nasaehgedety,
       url: "https://nasaehgedety.vercel.app/",
+      code: "https://github.com/EL-KADI/Nasaeh-Gedety",
     },
     {
       title: "Digital Card Creator",
@@ -85,6 +89,7 @@ export default function Projects() {
         "Digital Card Creator is a flexible platform built with Next.js and Tailwind CSS, allowing users to create custom digital cards such as greeting cards, invitations, and business cards. Users can start designing from scratch, adding text, images, and freely customizing colors and fonts. The platform provides instant preview of the designs and supports downloading the final cards in PNG or PDF format using jsPDF. It leverages Fabric.js for powerful and dynamic graphic editing, ensuring a smooth and flexible design experience suitable for both personal and professional use.",
       image: DigitalCardCreator,
       url: "https://digital-card-creator-nine.vercel.app",
+      code: "https://github.com/EL-KADI/Digital-Card-Creator",
     },
     {
       title: "VideoQuest",
@@ -92,6 +97,15 @@ export default function Projects() {
         "VideoQuest is an interactive front-end application built with Next.js and Tailwind CSS, allowing users to explore, search, and follow educational and entertainment videos from open sources. The application features a modern user interface with dark mode support, an advanced dashboard displaying interaction statistics through dynamic charts, a favorites list for saving videos, an option to download videos for offline viewing, and direct video playback within the app. VideoQuest ensures a smooth and interactive user experience, with easy customization and feature development.",
       image: VideoQuest,
       url: "https://video-quest.vercel.app/",
+      code: "https://github.com/EL-KADI/VideoQuest",
+    },
+    {
+      title: "Podcast Finder",
+      description:
+        "Podcast Finder is an interactive front-end application built with Next.js and Tailwind CSS, designed to enable users to easily search and explore a wide variety of podcast information sourced from open platforms. The site features a dedicated section for Featured Podcasts to help users follow the best carefully selected episodes and shows. The application boasts a modern and smooth user interface, ensuring an engaging and seamless experience for users of all levels.",
+      image: PodcastFinder,
+      url: "https://podcast-finder-seven.vercel.app/",
+      code: "https://github.com/EL-KADI/Podcast-Finder",
     },
     {
       title: "AuddTune",
@@ -99,6 +113,7 @@ export default function Projects() {
         "AuddTune is a song recognition platform built with React and Tailwind CSS. It allows users to identify songs by recording audio or uploading an audio file. The platform utilizes the <a href='https://audd.io' target='_blank' rel='noopener noreferrer'>audd.io</a> API for accurate song analysis. It provides an easy-to-use interface to display song information such as the artist's name, song title, and album.",
       image: auddtuneimage,
       url: "https://auddtune.vercel.app/",
+      code: "https://github.com/EL-KADI/AuddTune",
     },
     {
       title: "DR. Abdullah Clinic System",
@@ -106,6 +121,7 @@ export default function Projects() {
         "Dr. Abdullah's Clinic is a patient management dashboard built with React and Tailwind CSS. It offers secure local storage-based authentication without APIs, providing login, registration, and patient management. Users can add treatment plans, appointments, and surgical cases. The dashboard displays patient details, medical history, and upcoming appointments, ensuring efficient clinic management.",
       image: abdullahclinicsystem,
       url: "https://abdullah-clinic-system.vercel.app/#/",
+      code: "https://github.com/EL-KADI/Abdullah-Clinic-System",
     },
     {
       title: "MovieNest",
@@ -113,6 +129,7 @@ export default function Projects() {
         "This project is a fully responsive movie rating website built with React and Tailwind CSS. It showcases top-rated and lowest-rated films using real-time data from APIs. Users can explore trending movies, read brief reviews, and view ratings visually. The interface is clean and intuitive, ensuring fast performance and seamless browsing. It offers a fun and informative way to discover and compare films.",
       image: MovieNest,
       url: "https://movie-nest-ten.vercel.app/",
+      code: "https://github.com/EL-KADI/MovieNest",
     },
     {
       title: "GamePlex",
@@ -120,6 +137,7 @@ export default function Projects() {
         "This project is a web page showcasing a collection of games with a 3D-designed interface. It includes a login and registration system, allowing users to create accounts and access personalized content. The immersive 3D design enhances the user experience.",
       image: GamePlex,
       url: "https://gameplex-theta.vercel.app/",
+      code: "https://github.com/EL-KADI/GamePlex",
     },
     {
       title: "NoteApp",
@@ -127,6 +145,7 @@ export default function Projects() {
         "This project is a fully responsive note-taking app built with React and Tailwind CSS. It features user authentication with login and registration, and allows users to create, edit, and delete notes. Notes are stored using both local storage and external APIs to ensure data persistence and accessibility. The app offers a clean, intuitive design and smooth performance, making it ideal for organizing tasks and ideas efficiently.",
       image: NoteApp,
       url: "https://note-app-el-kadis-projects.vercel.app/",
+      code: "https://github.com/EL-KADI/NoteApp/",
     },
     {
       title: "FoodDex",
@@ -134,6 +153,7 @@ export default function Projects() {
         "This project is a web page showcasing various dishes with their recipes and calorie counts. Built using SASS, it offers a visually appealing interface. Users can explore meals, learn preparation methods, and track nutritional value effortlessly.",
       image: FoodDex,
       url: "https://fooddex.vercel.app/",
+      code: "https://github.com/EL-KADI/FoodDex",
     },
     {
       title: "Material Kit 2",
@@ -141,6 +161,7 @@ export default function Projects() {
         "This project is a web application featuring a Login Page and Home Page. It dynamically fetches content from APIs, showcasing popular games, news updates, inspirational quotes, and jokes. The app delivers a seamless user experience with a clean design.",
       image: MaterialKit2,
       url: "https://el-kadi.github.io/Material-Kit-2/#/register",
+      code: "https://github.com/EL-KADI/Material-Kit-2",
     },
     {
       title: "Weather",
@@ -148,6 +169,7 @@ export default function Projects() {
         "This project is a web application providing real-time weather updates based on your location. It also allows users to search for weather information for any country or city worldwide, offering a seamless and interactive experience.",
       image: Weather,
       url: "https://weather-beta-flame.vercel.app/",
+      code: "https://github.com/EL-KADI/Weather",
     },
     {
       title: "Games",
@@ -155,6 +177,7 @@ export default function Projects() {
         "This project is a web application offering a variety of games sourced from a dedicated API. Users can explore and enjoy different games in an easy-to-navigate interface, providing a fun and engaging experience for game enthusiasts.",
       image: Games,
       url: "https://gameson-theta.vercel.app/",
+      code: "https://github.com/EL-KADI/Games",
     },
     {
       title: "Daniels",
@@ -162,6 +185,7 @@ export default function Projects() {
         "This project is a single-page website providing a comprehensive overview. It includes sections for personal details, services, previous work, client feedback, team information, and communication, all structured to enhance user engagement.",
       image: Daniels,
       url: "https://daniels-tau-fawn.vercel.app/",
+      code: "https://github.com/EL-KADI/master-tow",
     },
     {
       title: "DevFolio",
@@ -169,6 +193,7 @@ export default function Projects() {
         "This web page serves as a training project, featuring a Portfolio Section, Blog Section, Get in Touch Section, and About Section. The design is clean and user-friendly, ensuring a smooth browsing experience for showcasing work and sharing updates.",
       image: DevFolio,
       url: "https://devfolio-five-xi.vercel.app/",
+      code: "https://github.com/EL-KADI/DevFolio",
     },
     {
       title: "Start Framework",
@@ -176,6 +201,7 @@ export default function Projects() {
         "This project is a simple web page showcasing a Portfolio, About section, and Contact form. The layout is clean and minimalistic, focusing on presenting essential information in a straightforward and user-friendly manner.",
       image: StartFramework,
       url: "https://el-kadi.github.io/Start-Framework/",
+      code: "https://github.com/EL-KADI/Start-Framework",
     },
     {
       title: "Random Quote Generator",
@@ -183,6 +209,7 @@ export default function Projects() {
         "This project is a web page displaying a random quote, advice, or saying when the user clicks a button. The interface is simple and user-friendly, ensuring an enjoyable experience with every click for daily inspiration.",
       image: RandomQuoteGenerator,
       url: "https://quote-generator-ten-alpha.vercel.app/",
+      code: "https://github.com/EL-KADI/-Random-Quote-Generator.",
     },
     {
       title: "Bookmark",
@@ -190,6 +217,7 @@ export default function Projects() {
         "This project is a web page allowing users to add the name and link of any page they wish to save. It offers options to visit or delete saved links, with a simple and user-friendly interface for easy bookmark management.",
       image: Bookmark,
       url: "https://bookmark-khaki-one.vercel.app/",
+      code: "https://github.com/EL-KADI/Bookmark-Name",
     },
     {
       title: "Smart Login System",
@@ -197,6 +225,7 @@ export default function Projects() {
         "This project is a simple web page for user registration and login. It includes a Sign Up form for new users and a Login form for existing users, designed to be clean and functional for a straightforward authentication experience.",
       image: SmartLoginSystem,
       url: "https://smart-login-gamma.vercel.app/",
+      code: "https://github.com/EL-KADI/Smart-Login",
     },
   ];
 
@@ -242,37 +271,65 @@ export default function Projects() {
                   </h5>
                   <p className="mb-4 flex-grow text-xs text-gray-700 dark:text-gray-400">
                     {project.title === "AuddTune" ? (
-                   <span
-                   dangerouslySetInnerHTML={{ __html: project.description }}
-                   className="auddtune-description"
-                 />
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: project.description,
+                        }}
+                        className="auddtune-description"
+                      />
                     ) : (
                       project.description
                     )}
                   </p>
-                  <a
-                    href={project.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex w-max items-center px-3 py-2 text-sm font-medium text-center bg-[#1a243a] dark:group-hover:bg-[#1a243a] text-[#FED29B] dark:bg-[#0D121D] group-hover:bg-[#0D121D] rounded-lg transition-all duration-300 mt-auto"
-                  >
-                    Go To Watch
-                    <svg
-                      className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                      aria-hidden="true"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 14 10"
+                  <div className="flex justify-between">
+                    {" "}
+                    <a
+                      href={project.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex w-max items-center px-3 py-2 text-sm font-medium text-center btn-hover-style rounded-lg mt-auto"
                     >
-                      <path
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M1 5h12m0 0L9 1m4 4L9 9"
-                      />
-                    </svg>
-                  </a>
+                      Experience It
+                      <svg
+                        className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 14 10"
+                      >
+                        <path
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M1 5h12m0 0L9 1m4 4L9 9"
+                        />
+                      </svg>
+                    </a>
+                    <a
+                      href={project.code}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex w-max items-center px-3 py-2 text-sm btn-hover-style font-medium text-center rounded-lg mt-auto"
+                    >
+                      View Code
+                      <svg
+                        className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 14 10"
+                      >
+                        <path
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M1 5h12m0 0L9 1m4 4L9 9"
+                        />
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
             </a>
